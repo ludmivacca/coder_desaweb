@@ -343,6 +343,8 @@ body {
 }
 
 .contenedor_contacto {
+  max-width: 1800px;
+  width: 100%;
   grid-area: main;
   display: flex;
   flex-direction: column;
@@ -408,6 +410,7 @@ button {
 
 form {
   margin-top: 20px;
+  width: 70%;
 }  
 
 /* Media Queries */
