@@ -1,0 +1,32 @@
+/* Generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Contenedor principal usando Grid */
+  .grid-container {
+    display: grid;
+    grid-template-areas: "header" "main" "footer";
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+    gap: 20px;
+  }
+  
+  /* Body */
+  body {
+    font-size: 14px;
+    font-family: 'Work Sans', sans-serif;
+    color: $text-color;
+    background-color: $background-color;
+    padding: 10px 20px;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    overflow: auto;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+  }
+  

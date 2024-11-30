@@ -1,0 +1,48 @@
+/* Pie de página */
+.footer {
+    grid-area: footer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: $footer-background-color;
+    color: $footer-text-color;
+    padding: 20px 0;
+    text-align: center;
+  
+    .informacionfinal {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      gap: 20px;
+      margin-bottom: 20px;
+      color: $footer-text-color;
+  
+      img {
+        width: 30px;
+        height: 30px;
+        margin: 20px;
+      }
+  
+      a {
+        text-decoration: none;
+        color: #fff;
+        display: flex;
+        align-items: center;
+      }
+  
+      ul {
+        list-style: none;
+      }
+    }
+  
+    .texto {
+      border-top: 1px solid $border-top-color;
+      padding-top: 10px;
+    }
+  
+    h3 {
+      margin-bottom: 50px;
+      font-size: 30px;
+    }
+  }
+  

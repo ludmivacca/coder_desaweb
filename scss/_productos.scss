@@ -1,0 +1,33 @@
+/* Sección de productos */
+.contenedor2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .producto {
+    border: 1px solid $border-color;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    background-color: #ffffff;
+  
+    p {
+      margin: 10px 0 0 0;
+      color: $dark-color;
+      font-size: large;
+    }
+  
+    img {
+      max-width: 80%;
+      height: auto;
+      border-radius: 5px;
+    }
+  
+    &:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 15px $box-shadow-color;
+    }
+  }
+  
